@@ -50,27 +50,27 @@
             </div>
             <div class="ketentuan">
                 <ul>
-                    <li>
-                        <p>Ketentuan Kunjungan :</p>
-                        <ul>
+                    <li class="kunjungan-list">
+                        <p class="ketentuan-kunjungan">Ketentuan Kunjungan :</p>
+                        <ul class="kanan">
                             <p>1. Datang sesuai dengan waktu yang tertera pada tiket</p>
                         </ul>
-                        <ul>
+                        <ul class="kanan">
                             <p>2. Tidak membawa tas berukuran besar</p>
                         </ul>
-                        <ul>
+                        <ul class="kanan">
                             <p>3. Tidak membawa makanan dan minuman</p>
                         </ul>
-                        <ul>
+                        <ul class="kanan">
                             <p>4. Pastikan dalam kondisi sehat</p>
                         </ul>
-                        <ul>
+                        <ul class="kanan">
                             <p>5. Apabila akan membatalkan atau mengubah waktu kunjungan, silakan menghubungi kami</p>
                         </ul>
                     </li>
                 </ul>
                 <ul>
-                    <li>
+                    <li class="informasi-lebih">
                         <p>Infromasi lebih lanjut, hubungi kontak kami</p>
                     </li>
                 </ul>

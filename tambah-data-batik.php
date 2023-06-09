@@ -29,7 +29,7 @@ if (isset($_POST["tambah"])) {
         <h1>Tambah Data Batik</h1>
         <form action="" method="post" enctype="multipart/form-data">
             <label for="pengrajin">Id Pengrajin / Nama Pengrajin : </label>
-            <select name="pengrajin" id="">
+            <select name="pengrajin" id="pengrajin">
                 <?php
                 $sql = "SELECT * FROM pengrajin where 1";
                 $result = mysqli_query($conn, $sql);
@@ -42,7 +42,7 @@ if (isset($_POST["tambah"])) {
                 required><br>
             <label for="info">Info Batik : </label>
             <textarea name="info" id="info" autocomplete="off" placeholder="Masukan info ..." required></textarea><br>
-            <label for="gambar">Upload Gambar : </label>?id_pengrajin?
+            <label for="gambar">Upload Gambar : </label>
             <input type="file" name="gambar" id="gambar"><br>
             <button type="submit" name="tambah"> Tambah Data</button>
         </form>
